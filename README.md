@@ -115,6 +115,26 @@ Each model yields a raw depth estimate which is normalized and aligned to the or
 
 ---
 
+## Experimental Evaluation
+
+To validate the robustness and generalizability of the pipeline, we processed six distinct real-world scenarios, each highlighting different challenges in depth estimation and 3D reconstruction:
+
+1. **Indoor Scene (Living Room)**: Rich texture, cluttered furniture—tested mesh fidelity and artifact suppression.
+2. **Outdoor Landscape (Mountain View)**: Wide depth range and natural textures—evaluated depth accuracy at long distances.
+3. **Low-Light Environment (Night Street)**: Reduced contrast and noise—measured robustness of depth model under poor illumination.
+4. **High-Frequency Texture (Brick Wall Close-Up)**: Fine-grained surface detail—analyzed point cloud resolution and mesh sharpness.
+5. **Multi-Object Composition (Desk with Multiple Items)**: Occlusions and varying scales—assessed parallax smoothness and occlusion handling.
+6. **Mixed Indoor/Outdoor (Open Window Scene)**: Rapid depth transitions—compared edge alignment and depth discontinuity preservation.
+
+For each scenario, we compared:
+
+* **Depth Map Quality**: Visual inspection and mean absolute error against rudimentary ground truth scans.
+* **Point Cloud Density**: Number of valid points per square unit.
+* **Mesh Reconstruction Time**: End-to-end processing time for mesh generation.
+* **GIF Smoothness**: Frame-to-frame parallax transition metrics.
+
+Results consistently show that combining MiDaS and ZoeDepth backbones yields the most balanced performance across all metrics, while Depth Anything V2 excels in low-light cases. Detailed quantitative results are available in the report.
+
 ## Acknowledgements
 
 * Ranftl et al. (2021) – *Vision Transformers for Dense Prediction* (ICCV)
