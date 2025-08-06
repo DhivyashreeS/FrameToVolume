@@ -106,12 +106,6 @@ A lightweight Python pipeline that transforms a single 2D photograph into rich 3
 
 ---
 
-## Download Preprocessed Models & Data
-
-* **University at Buffalo Box**: [Download assets (weights, sample inputs)](https://buffalo.box.com/s/6obwv4c9q2h95vx8a8zquboqwywtxtlb)
-
----
-
 ## Model Details
 
 * **MiDaS DPT-Hybrid** via Hugging Face (`Intel/dpt-hybrid-midas`)
