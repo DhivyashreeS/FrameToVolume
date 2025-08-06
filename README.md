@@ -13,19 +13,7 @@ A lightweight Python pipeline that transforms a single 2D photograph into rich 3
 * **Libraries**:
 
   ```bash
-  pip install \
-    numpy \
-    opencv-python \
-    torch \
-    torchvision \
-    torchaudio \
-    matplotlib \
-    imageio \
-    open3d \
-    pillow \
-    transformers \
-    tqdm \
-    timm
+  pip install numpy opencv-python torch torchvision torchaudio matplotlib imageio open3d pillow transformers tqdm timm
   ```
 
 ---
