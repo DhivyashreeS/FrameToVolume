@@ -2,6 +2,9 @@
 
 A lightweight Python pipeline that transforms a single 2D photograph into rich 3D representations—depth maps, point clouds, meshes—and generates parallax-view GIF animations. Powered by state‑of‑the‑art monocular depth estimation models (MiDaS, Depth Anything V2, ZoeDepth) and Open3D for geometric reconstruction.
 
+<img width="161" height="138" alt="image" src="https://github.com/user-attachments/assets/db1cafe4-8bdb-47d1-bc31-14f7b930d82b" />
+
+
 ---
 
 ## Requirements
