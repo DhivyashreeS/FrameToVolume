@@ -1,9 +1,20 @@
 # FrameToVolume: 2D-to-3D Image-to-GIF Conversion
 
-A lightweight Python pipeline that transforms a single 2D photograph into rich 3D representations—depth maps, point clouds, meshes—and generates parallax-view GIF animations. Powered by state‑of‑the‑art monocular depth estimation models (MiDaS, Depth Anything V2, ZoeDepth) and Open3D for geometric reconstruction.
+A lightweight Python pipeline that transforms a single 2D photograph into rich 3D representations—depth maps, point clouds, meshes—and generates GIF animations. Powered by state‑of‑the‑art monocular depth estimation models (Depth Anything V2, MiDaS, ZoeDepth) and Open3D for geometric reconstruction.
 
-<img width="161" height="138" alt="image" src="https://github.com/user-attachments/assets/db1cafe4-8bdb-47d1-bc31-14f7b930d82b" />
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/2704f4a7-b903-4a0c-b607-5cfa10f7ab8e" />
 
+<img width="200" height="200" alt="map_depth_anything" src="https://github.com/user-attachments/assets/0777f683-937b-4658-880b-976c3353dead" />
+
+<img width="200" height="200" alt="map_midas" src="https://github.com/user-attachments/assets/52565db0-4969-4344-9222-0c3354eac8b5" />
+
+<img width="200" height="200" alt="map_zoe_depth" src="https://github.com/user-attachments/assets/4d128865-b82f-4571-b85b-f914a72f6ef4" />
+<br>
+<img src="https://github.com/user-attachments/assets/70e899d3-d9cd-4d62-a2d3-ab3c43cac82a" width="200" height="200" />
+
+<img src="https://github.com/user-attachments/assets/90a18585-98a6-48dc-a9c2-7673926fd088" width="200" height="200" />
+
+<img src="https://github.com/user-attachments/assets/12376fcd-1110-4d24-b87f-3567b9f31ec7" width="200" height="200" />
 
 ---
 
