@@ -62,11 +62,8 @@ A lightweight Python pipeline that transforms a single 2D photograph into rich 3
 3. **Install dependencies**
 
    ```bash
-   pip install -r requirements.txt
+  pip install numpy opencv-python torch torchvision torchaudio matplotlib imageio open3d pillow transformers tqdm timm
    ```
-
-> *Note:* You can also install directly with the `pip install ...` command listed in **Requirements**.
-
 ---
 
 ## Usage
